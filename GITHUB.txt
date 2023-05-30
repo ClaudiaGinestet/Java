@@ -1,0 +1,32 @@
+git init // inicializar
+git status // ver estado
+git add . // agregar modificaciones realizadas
+git commit -m "Comentar" // comisionar el archivo y comentar la actualización del mismo
+git push origin main // subir el archivo a la nube
+
+git branch -M main // crea una rama principal
+git remote add origin <url> // setear donde se va a alojar el archivo
+git remote set-url origin >url> // si el archivo ya está siendo utilizado se da prioridad con este comando
+
+q // salir
+clear // limpiar
+git config --list // ver lista de configuracion
+
+git clone <url> //clonar un archivo
+git remote --verbose // ver a donde está linkeado el archivo para el push o pull
+
+git config --global user.name "user name"
+git config --global user.email "email"
+
+…or create a new repository on the command line
+echo "# Egg-curso" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ClaudiaGinestet/Egg-curso.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/ClaudiaGinestet/Egg-curso.git
+git branch -M main
+git push -u origin maingit ini
