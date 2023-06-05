@@ -10,7 +10,7 @@ package servicios;
  */
 
 
-import entidades.Cadena;
+import Servicio.Cadena;
 
 public class CadenaServicio {
     private Cadena cad;
