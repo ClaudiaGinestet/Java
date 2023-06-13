@@ -9,9 +9,8 @@ package Entidades;
  *
  * @author Claudia
  */
-public class Gato extends Animal {
-    @Override
-    public String hacerRuido() {
-        return "Miau";
+public class Caballo extends Animal {
+    public Caballo(String nombre, String alimento, int edad, String raza) {
+        super(nombre, alimento, edad, raza);
     }
 }
